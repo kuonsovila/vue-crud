@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Salad",
+      "price": 2.4,
+      "description": "N/A"
+    },
+    {
+      "id": 2,
+      "name": "Soup",
+      "price": 2.4,
+      "description": "N/A"
+    },
+    {
+      "id": 3,
+      "name": "Salmon",
+      "price": "4",
+      "description": "free vasabi"
+    },
+    {
+      "name": "Street food",
+      "description": "nothing",
+      "price": "4",
+      "id": 4
+    }
+  ]
+}
