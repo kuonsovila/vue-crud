@@ -68,6 +68,13 @@ export default {
     editProduct(id) {
       this.$router.push({ name: "updateProduct", params: { id: id } });
     },
+    deleteDish(id) {
+      axios.delete(`${baseUrl}/products/${id}`).then((res) => {
+        let i = this.products.map((data) => data.id).indexOf(id);
+        console.log(res);
+        this.products.splice(i, 1);
+      });
+    },
     // getDisplayProduct(category) {
     //   return {
     //     id: category.id,
