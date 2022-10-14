@@ -3,8 +3,8 @@
     {
       "id": 1,
       "name": "Salad",
-      "price": 2.4,
-      "description": "N/A"
+      "price": "5.6",
+      "description": "..."
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "id": 3,
       "name": "Salmon",
       "price": "4",
-      "description": "free vasabi"
+      "description": "add vasabi"
     },
     {
       "name": "Street food",

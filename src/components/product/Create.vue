@@ -27,7 +27,7 @@
               >
                 <b-form-input
                   id="input-1"
-                  type="number"
+                  type=""
                   v-model="price"
                   placeholder="0.00 $"
                   required
@@ -69,7 +69,7 @@ export default {
     return {
       name: "",
       description: "",
-      price: 0,
+      price: 0.0,
     };
   },
   methods: {

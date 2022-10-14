@@ -27,7 +27,7 @@
               >
                 <b-form-input
                   id="input-1"
-                  type="number"
+                  type=""
                   v-model="product.price"
                   placeholder="0.00 $"
                   required
